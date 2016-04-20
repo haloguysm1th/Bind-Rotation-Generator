@@ -1,7 +1,13 @@
 # (Dank) Bind Rotation Generator
 Clientside web app for silly Source game bind rotations.
 
+## Screenshot
+
+![Courtesy of r/copypasta](http://i.imgur.com/WCMJAm8.png "cringefest")
+
 ## Introduction
+
+View the app [here](https://paced.github.io/bind-rotation-generator/).
 
 Why do you need this app? Well, you don't. But it can be a bit of fun. You can use it to turn lengthy, mostly unformatted copypasta or even movie scripts, novels, what have you into a bind rotation. This means you can press a button of choice and it will output a string to chat. Continue pressing it to continue until you get to the end. Then it loops.
 
@@ -31,7 +37,7 @@ I am aware that at least two other apps exist that do the same thing. Despite my
 
 ## Usage
 
-- Open the link (will post later) in your browser or clone the repository to your drive.
+- Open the [link](https://paced.github.io/bind-rotation-generator/) in your browser or clone the repository to your drive.
 - Paste in your long string/text and choose a key.
 - Click "Generate".
 - Copy paste the output to either your autoexec.cfg, or create a new file, e.g.: binds.cfg, and put "exec binds.cfg" in your autoexec.
