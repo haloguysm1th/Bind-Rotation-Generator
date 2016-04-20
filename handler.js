@@ -12,19 +12,19 @@ function splitLines(binds, limit) {
         // by using newlines for varied chat spamming.
         if (c == " " || c == "\n" || end == binds.length - 1) {
             testStr = binds.slice(start, end);  // String segment.
-            if (testStr.length > limit) {
+            if (end == binds.length - 1) {
+                // Test what we're adding is empty.
+                sliceTest = binds.slice(start);
+                if (/\S/.test(sliceTest)) {
+                    out.push(sliceTest);
+                }
+            } else if (testStr.length > limit) {
                 // First we need to test if what we're adding is empty.
                 sliceTest = binds.slice(start, lastTry);
                 if (/\S/.test(sliceTest)) {
                     out.push(sliceTest);
                 }
                 start = lastTry + 1;
-            } else if (end == binds.length - 1) {
-                // Again test what we're adding is empty.
-                sliceTest = binds.slice(start);
-                if (/\S/.test(sliceTest)) {
-                    out.push(binds.slice(start));
-                }
             } else if (c == "\n") {
                 // End early when newline is reached.
                 // Yet again test what we're adding is empty.
@@ -37,7 +37,7 @@ function splitLines(binds, limit) {
                 // Keep going until a terminal condition, e.g.: long enough.
                 lastTry = end;
             }
-        } else if (end - lastTry > 126) {
+        } else if (end - lastTry >= 127) {
             return [];  // Exit w/ err: single word exceeds 127 chars.
         }
     }

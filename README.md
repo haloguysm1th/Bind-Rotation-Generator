@@ -1,9 +1,10 @@
 # (Dank) Bind Rotation Generator
 Clientside web app for silly Source game bind rotations.
 
-## Screenshot
+## Screenshots
 
 ![Courtesy of r/copypasta](http://i.imgur.com/7MJri4E.png "navyseal")
+![Ingame Team Fortress 2 Chat](http://i.imgur.com/0aGrpFx.png "demoman?")
 
 ## Introduction
 
