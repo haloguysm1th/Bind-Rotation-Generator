@@ -3,7 +3,7 @@ Clientside web app for silly Source game bind rotations.
 
 ## Screenshot
 
-![Courtesy of r/copypasta](http://i.imgur.com/WCMJAm8.png "cringefest")
+![Courtesy of r/copypasta](http://i.imgur.com/7MJri4E.png "navyseal")
 
 ## Introduction
 
@@ -39,6 +39,7 @@ I am aware that at least two other apps exist that do the same thing. Despite my
 
 - Open the [link](https://paced.github.io/bind-rotation-generator/) in your browser or clone the repository to your drive.
 - Paste in your long string/text and choose a key.
+- *You must apply two alias names in the input boxes. This will allow you to create multiple bind rotations provided you bind different keys. The aliases should not contain any special characters or whitespace.*
 - Click "Generate".
 - Copy paste the output to either your autoexec.cfg, or create a new file, e.g.: binds.cfg, and put "exec binds.cfg" in your autoexec.
 - In game you can press that button to use the rotation.
