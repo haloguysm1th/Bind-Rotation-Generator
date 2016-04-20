@@ -63,7 +63,7 @@ function memewriter(key, input, limit, comments, aliasName, cycleName) {
         out = out.concat("// -- paced's dank bind rotation generator --\n");
         out = out.concat("// ------------------------------------------\n\n");
     }
-    out = out.concat("bind ", key, " memes\n\n");
+    out = out.concat("bind ", key, " ", cycleName, "\n\n");
     // Write the bind references.
     if (comments) {
         out = out.concat("// Bind references are called in the latter half " +
@@ -109,11 +109,15 @@ function submit() {
     
     if (!(aliasRead && cycleRead)) {
         document.getElementById("output")
-                .value = "You must supply alias names."
+                .value = "You must supply alias names.";
         return 1;
     } else if (aliasRead == cycleRead) {
         document.getElementById("output")
-                .value = "Aliases must be non-identical."
+                .value = "Aliases must be non-identical.";
+        return 1;
+    } else if (/\s/g.test(aliasRead) || /\s/g.test(cycleRead)) {
+        document.getElementById("output")
+                .value = "Aliases cannot contain whitespace.";
         return 1;
     }
     
