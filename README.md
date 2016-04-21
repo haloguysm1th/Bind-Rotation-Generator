@@ -28,7 +28,6 @@ I am aware that at least two other apps exist that do the same thing. Despite my
 - This will split each line to make sure it will fit when you try to use it in server.
 - It will detect for empty "say " commands and will not add them to the output.
 - You can choose to include a few lines of comments to the config.
-- You can choose to try to keep lines of your config under 80 characters long on output
 - Not sure about the speed of other similar apps, but this can process the entirety of, say, the Bee Movie script in less than a second (depending on your processor). I believe I used a fair few comparisons, though the time difference should be trivial. I tried the same with Les Miserables but it crashed my browser. There's a limit to how much you can mash that spam bind, kids.
 
 ### Notes:
