@@ -1,6 +1,6 @@
 # (Dank) Bind Rotation Generator
 Clientside web app for silly Source game bind rotations.
-
+ 
 ## Screenshots
 
 ![Courtesy of r/copypasta](http://i.imgur.com/7MJri4E.png "navyseal")
