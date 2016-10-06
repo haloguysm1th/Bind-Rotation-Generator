@@ -8,7 +8,7 @@ Clientside web app for silly Source game bind rotations.
 
 ## Introduction
 
-View the app [here](https://paced.github.io/bind-rotation-generator/).
+View the app [here](https://paced.github.io/Bind-Rotation-Generator/).
 
 Why do you need this app? Well, you don't. But it can be a bit of fun. You can use it to turn lengthy, mostly unformatted copypasta or even movie scripts, novels, what have you into a bind rotation. This means you can press a button of choice and it will output a string to chat. Continue pressing it to continue until you get to the end. Then it loops.
 
